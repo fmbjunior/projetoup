@@ -1,0 +1,360 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Up
+</name>
+</assembly>
+<members>
+<member name="M:Up.clsItemMP.Excluir(System.Int32)">
+	<summary>
+ Usando para Excluir os itens de Pedido MP
+ </summary>
+	<param name="xID">codigoLinha</param>
+	<remarks></remarks>
+</member><member name="M:Up.clsItemMP.Excluir(System.Int32,System.String)">
+	<summary>
+ Usando para Excluir os itens de Pedido MP
+ </summary>
+	<param name="xID">CodigoPedido</param>
+	<param name="opc">P OU O</param>
+</member><member name="F:Up.frmPedidoMP.Value">
+	<summary>'''usando para indicar o status do botao   ''' </summary>
+</member><member name="F:Up.modMP.strTipoPedido">
+	<summary> Usado para receber se é Pedido ou Orcamento</summary>
+</member><member name="F:Up.modMP.sTipoBusca">
+	<summary> Indicar qual é o tipo de busca, Orcamento ou Pedido </summary>
+</member><member name="P:Up.cCreditoCliente.Id">
+	<summary>
+ Insere o codigo automatico 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:Up.Geral.vISSQN">
+	<summary>Usado para guardar o valor do percentual do issqn</summary>
+</member><member name="F:Up.Geral.DiaFechamentoMensal">
+	<summary>Usado para receber o Dia do Vencimento configurado na Empresa</summary>
+</member><member name="F:Up.Geral.UsaMateriaPrima">
+	<summary>Usando para Indicar se a Empresa tem Pedido de MATERIA PRIMA</summary>  ''' <remarks>Retorna um valor boolan  </remarks>
+</member><member name="F:Up.Geral.TipoComissaoVenda">
+	<summary>Esta variavel recebera o Valor P para comissao Por produto e V para comissao por Vendedor</summary>
+</member><member name="F:Up.Geral.verVersao">
+	<summary>Usado para pegar a versao do sistemas</summary>
+</member><member name="F:Up.Geral.Manual">
+	<summary>Usando para armazenar o tipo de Acesso nas Telas do ShellShoes, Manual ou por Leitor </summary>
+</member><member name="P:Up.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Up.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Up.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Up.Compra.EncheListaItens">
+	<summary>
+ Enche a lista com os produtos na grade de compra
+ </summary>
+</member><member name="T:Up.Tabelas.BalançoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.EmpresaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.RazãoSaldoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.RazãoPlanoContasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.FolhaPgtoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.FuncionáriosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.PedidoPorCidadeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.SaldoCaixaDiaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CaixaRazaoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoItensDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.LanCentroCustoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoLancDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoResumoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CCustoResumoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CaixaSinteticoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.EtiquetaProdutoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.FluxoCaixaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.CurvaABCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.BalancetePeriodoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.MargemLucroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Up.Tabelas.BalançoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.EmpresaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.RazãoSaldoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.RazãoPlanoContasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.FolhaPgtoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.FuncionáriosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.PedidoPorCidadeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.SaldoCaixaDiaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CaixaRazaoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoItensRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.LanCentroCustoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoLancRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoResumoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CCustoResumoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CaixaSinteticoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CCG3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.EtiquetaProdutoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.FluxoCaixaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.CurvaABCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.BalancetePeriodoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.MargemLucroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Up.Tabelas.BalançoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.EmpresaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.RazãoSaldoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.RazãoPlanoContasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.FolhaPgtoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.FuncionáriosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.PedidoPorCidadeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.SaldoCaixaDiaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CaixaRazaoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CompraCtrlPedidoItensRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.LanCentroCustoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoLancRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CentroCustoResumoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CCustoResumoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CaixaSinteticoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CCG1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CCG2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CCG3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.EtiquetaProdutoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.FluxoCaixaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.CurvaABCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.BalancetePeriodoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas.MargemLucroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Up.Tabelas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:Up.DocumentoEntrada.sContrato">
+	<summary>Recebe o codigo do contrato quando for feito o lançamento das despesas </summary>
+	<remarks>Vareavel criado pelo beto</remarks>
+</member>
+</members>
+</doc>
