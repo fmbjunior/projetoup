@@ -1,0 +1,2 @@
+ADMIN          Ativar e Desativar Caixa - T077                   Adicionou      CAIXA EMPRESA       17/08/2013 16:51:48                                                                                                                                                       
+ADMIN          Confirmar Pedido/Venda - T235                     Confirmou      579                 17/08/2013 16:51:53                                                                                                                                                       

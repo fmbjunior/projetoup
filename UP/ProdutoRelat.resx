@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btFindProduto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAADI0lE
+        QVQ4T42TW0ySYRjHXz9BmamrlZbkRXawuspJqWOxVs021nG1WBdlF9Vm3eVFOsvKTDthaGkaAYLKwSR1
+        nl1SHgBRMy3UUsPDx1kFE8tSvo+3TwKbrYt+2297nvfd89+zvXsBxd8PUPzIgExGkIiIiD3nL1xmZ7IL
+        FOx8oeZm1uMG5pETyYfi4yOEAj4oKRYBi8kIxnRflgUkXwSQSEjAqdNnrle9eW/oQecd7/Q/JjU6x5Rq
+        2PatRjmI5xXJtQ8fZbOKhQJgNZtWBviREN+TJ1nX+nR2KzoPtWMO2KX7CvsIB4j688QcHKrtMehT2YKP
+        r5uamFazEaDjY8uCsNDQqLomZdeEA7YMWLHKbgNWpUbxGhWKN3SgePMHi6utbxIq8uu1an5JmUDV+mZN
+        i6IZeAX0OPrFD5+m1f0WV9F7k5PXbcSFnQZXqUbvknXo8ZfqCUzerofiyo+zsmyuuDLzzm3avaws4BUw
+        9jKuDo3YVajNJRydWeSPTOOC4SmXaHgKlxB1+bgdrxmcwmRKg4v7II9fFn9gf8zxY8eBV0Clhp1SKntV
+        1hnIHbf/fDJqc+bqprFcnQ3LH7VhvDHbYqnW4uRorU7uzfS7BZGbN4XTonYBr8DHB2xITLwitduxWtsc
+        zDbPOtkmB7ZkjmkWK0RnMA7qgOktnb3i2JiYc+BfUCj+9JTklBqjyd6AQ1jogjCHkLMIIfvrAnysQ43t
+        t9LSSjeErPenUsNBWBjVLZW60ZNAQGyyPS4u9j6Hk1PdrHhb1aHplEvLXoqTkpKKb6SmmuvrGi2v61sP
+        11Y1gVKhBEhEUlAurfBM/4FMuDVw1ap9IWvXHdy5IzKa6FcHBwcfysjINHeqe+ZkJeVnC58+By+e8YCQ
+        V+weWsYXQdx62U2LBkGBge56y5bNl3g8wYKyrWteLJIlLIX8RwANBAcFeTpAptPpGa/kFbBb0zsvEZUl
+        8J8Xea48/GuDgIAAd00ikYgPRw5kMpncxoZG2NfT/736Vd3KV/k7gEYEEEOe7jcIgoSyWCx5W5sStipU
+        nzzHv/mfgCUoFMo2BoNxIzqadvQXBhC1tw/+nRIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A32.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAMBSURBVDhPpZJdSNNRGMbP5nQM59ZS18zNvjBZJX1cZEnix6pdhBHdJI2iEgukL7OmKYUVKJWi
+        cxdqalloZpG2cAoONaf2N5dSaaWWn8256YaFmpb60H9/d5nd9IOHA4f3fc7Lex6yLB4C4iMNIjwvkevi
+        H3B85EQaeoIEH7rODYktlsekNx9MKe1NvF9v1kYk6CSE7eGqXAaxMsO3osXyZXhidmFuHpj+BUz+BKxT
+        gKbGXOwZdMBVuQw+ey5ysl8OUvZpYPQHMOAAPtuAd6OAvmt2JjS2QOTn50fc3d2Jh8ffpuHwyJbTuqiW
+        r7/Q8Q14PQS86gcMfUD1hxncKigbSkpNykhLS7uXmHhJGxAQ4OXqXILD4ZCkm9nKcuPIwjPKjNv6l4ir
+        SEHUgyhsKFwJyVMW9tZtR99ID2w2KzIz79YLhUI20ywQCFjh4eHK3FyNqaZOD2VVCFY9J5DoCPyqCVbX
+        0KpdUur7c5ienoLDYYdcLlcyBt7e3vJ2UxuGh4dgsYxiYOwrQhrXMo1OA6eR01BcQbDusQBW6xjM5m9Q
+        qVRZjIFEItlp6qBgtVkYd6fK+oogLifweUTgfZ8+NWxs1IgRX3oS3R+70dBZD1WsqpTFYhEilUojm4wN
+        oKhW2O0TzAtfhnqxrzgEh4v248bTFLSZKLS9odDS0gy9vhpHHx5DZHRUFZtNr8Hf339vfn4eXlRVoqvr
+        A6POzg68oRuMxiaUlJTgTrYW19JzkJxRgLjkLFxNSZ6nf+IMM4Gnp6csOjr6e0F+PgyGOjQ01KOqshLx
+        Z8/juFqLezoTqk0WtA/OoWcc6LcvguqdgDYvz+gr9uUTp4tIJIpQKBQWtVqNmJgYhIWFOTS5OY7Gt90o
+        p+zooUM1MgnYZ4AZOqW/F4H3/eMLR04l7GAW6YTL5UplMtllPp8fSZsK6ckC1UlXumoNBpToXv+2TS2i
+        teOTWVv4+MnR2Atxm7eFBu7YpVjKwnK4ubkJ+HwvBY/HX79p6+5g2ZogrnCFLx1nnqvivyHkDzD0qw0M
+        P9B1AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btHelpCurvaAbc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAADu0lE
+        QVQ4T62TbUxbVRjHz0A6p5NoGMvWuVLWIX5AHCbTfVhGIQilArINRQ3BCVSMS40uqJvyIi8tHTDElW6o
+        m05c6ygjcZu6hAw6BigbTLNkLRppwzQZDmgFHbT07e9zbjdq/OyT/O49995zfuc5zzmXAfhfEC5ieato
+        s6L1yR2ln76154OeL9870jfSYhyZ/Khr7Faz6fJshb7v55eqzvRmq0+0PVGoL96saErYkGKOoNGMsywq
+        ev90/+l+G647ZjEz74HbGxC47fbB+ZcHv88s4ifHn+i6dAOtPVaUar+GJL1dH5N0jq157JuwqOH4wPiC
+        x0fNYJignwhQmwe/B+FZ8uHoeTvKDp6HNEfTLc2tZfF5dWGRuuncgN9PA3lnjwcTdjt+uHwFg8PD+HVi
+        An4/TULiRY8X2i4bXqjugVShNciyGplM0RgWvXjAZJqdW6Am4HTOwnJxAJeGhvCV2YzDhiOCjMdN5wLU
+        R8fw7NsmLqqUZeqYLEsXFqWrPtGMT05Tk+qycBvz83N8HK5bbaipa0CfxSI8D1tvIb/2IuSvHUOcUvsy
+        wTj0KSRKKvhQ1T/mQDDog3dpSViK2+1Gp9EI1et7MXr1qiA62e9Afs0FbC3WB6U5Wnl8rpZxlkVSpW67
+        3jwS8Hm98HqXqE5ufPZFJ/aUqWA61QW/z0vd/NCcskL57lkkP9c8F5erEcflaRgnLMqoi3mltmdq2vU3
+        FdWHqakpWlI92trb4SZpMECFdnvw6uFRZL5phExZP5iQ1RjxiELHEnMOhUVrlTq2raSj+8KoQ5jZ5XLS
+        jg3BarMJGfIds91w4ZlqC9JUBkjyquslBVom2dnI1mx5Pixat0vH4nc3lVR+bEGAzo6dtj87Lx/7K6tC
+        IoqO7yaQfeBbbCnQBMVpJ1NjtxrYqvXJdLJDDuGyUX6MbZB3bEzfa5y55pjB7PRNvLGvAm16AwK88HQQ
+        S9quIEN9AvFKzY8PJe1bGSFaL0h4LIukaQ1MktrAEvOaW97pGISPissLzHeQh3nwN2Tu78W2ohZEJ2SU
+        M0a/GWORxD1ExLIoMmoVixCtZlEPiCXJhYcmj/eGDiCPaw4Xdmm+x9PqToifKh5dESlKpMFxxMNENBFJ
+        3e6kFQo+A7t/bULR9vLPF2tM42g9Y0fhwRFkV3RjU2r5H5H3xZRSlxQinnclVhDhpd15sZJYTTx4b/S6
+        3dIdZWcfL2y2p+ys+iX20YxOyjiLvvFMYggRsRz/zYgHzyqKuCuOJfhAoRb/uguZ3A0A7B9vEOR77tjz
+        /wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="SuperTooltip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btHelpCurvaAbc.SuperTooltip" xml:space="preserve">
+    <value>A gestão de estoques é fator de grande importância para as empresas, e digo mais, uma boa gestão de estoque faz com que a empresa possa se tornar mais competitiva no mercado em que atua. Para entendermos melhor a importância de um estoque bem administrado vamos dar um exemplo. 
+Em nossas casas procuramos comprar os produtos e materiais necessários para nossa utilização, obedecendo a um grau de prioridade, dificilmente compramos produtos caros em grande quantidade, nós os compramos conforme nossa necessidade. Se os produtos e materiais forem de valor menor e tiverem um consumo grande procuramos comprar uma quantidade maior para termos tranqüilidade, sabendo que o mesmo dificilmente faltará.
+Muitas empresas ainda mantêm vários itens em estoque por medo de que os mesmos faltem na sua linha de produção ou no estoque do centro de distribuição, comprometendo assim a entrega do produto ao cliente. Para manter um controle melhor do estoque e reduzir seu custo, sem comprometer o nível de atendimento, é importante classificar os itens de acordo com a sua importância relativa no estoque.
+Assim surge a importância da classificação do estoque pela curva ABC, este método é antigo, mas muito eficaz e baseia-se no raciocínio do diagrama de Pareto desenvolvido pelo economista italiano Vilfredo Pareto. É através da classificação da curva ABC que conseguimos determinar o grau de importância dos itens, permitindo assim diferentes níveis de controle com base na importância relativa do item.
+
+Características da classificação ABC dos itens
+
+Classe A: São os principais itens em estoque de alta prioridade, foco de atenção do gestor de materiais, pois são materiais com maior valor devido a sua importância econômica. Estima-se que 20% dos itens em estoque correspondem a 80% do valor em estoque.
+Classe B: Compreendem os itens que ainda são considerados economicamente preciosos, logo apos os itens de categoria A, e que recebem cuidados medianos. Estima se que 30% dos itens em estoque correspondem a 15% do valor em estoque.
+Classe C: Não deixam de ser importantes também, pois sua falta pode inviabilizar a continuidade do processo, no entanto o critério estabelece que seu impacto econômico não e dramático, o que possibilita menos esforços. Estima-se que 50% dos itens em estoque correspondem a 5% do valor em estoque.
+
+A partir desta classificação priorizamos aqueles de classe A nas políticas de estoques devido a maior importância econômica. Desta forma, os itens classe A receberão sistematicamente maior atenção do que itens classe C, em termos de analises mais detalhadas, menores estoques, maiores giros, menores lotes de reposição, mais contagem, etc.
+</value>
+  </data>
+  <data name="btHelpCurvaAbc.SuperTooltip1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAADu0lE
+        QVQ4T62TbUxbVRjHz0A6p5NoGMvWuVLWIX5AHCbTfVhGIQilArINRQ3BCVSMS40uqJvyIi8tHTDElW6o
+        m05c6ygjcZu6hAw6BigbTLNkLRppwzQZDmgFHbT07e9zbjdq/OyT/O49995zfuc5zzmXAfhfEC5ieato
+        s6L1yR2ln76154OeL9870jfSYhyZ/Khr7Faz6fJshb7v55eqzvRmq0+0PVGoL96saErYkGKOoNGMsywq
+        ev90/+l+G647ZjEz74HbGxC47fbB+ZcHv88s4ifHn+i6dAOtPVaUar+GJL1dH5N0jq157JuwqOH4wPiC
+        x0fNYJignwhQmwe/B+FZ8uHoeTvKDp6HNEfTLc2tZfF5dWGRuuncgN9PA3lnjwcTdjt+uHwFg8PD+HVi
+        An4/TULiRY8X2i4bXqjugVShNciyGplM0RgWvXjAZJqdW6Am4HTOwnJxAJeGhvCV2YzDhiOCjMdN5wLU
+        R8fw7NsmLqqUZeqYLEsXFqWrPtGMT05Tk+qycBvz83N8HK5bbaipa0CfxSI8D1tvIb/2IuSvHUOcUvsy
+        wTj0KSRKKvhQ1T/mQDDog3dpSViK2+1Gp9EI1et7MXr1qiA62e9Afs0FbC3WB6U5Wnl8rpZxlkVSpW67
+        3jwS8Hm98HqXqE5ufPZFJ/aUqWA61QW/z0vd/NCcskL57lkkP9c8F5erEcflaRgnLMqoi3mltmdq2vU3
+        FdWHqakpWlI92trb4SZpMECFdnvw6uFRZL5phExZP5iQ1RjxiELHEnMOhUVrlTq2raSj+8KoQ5jZ5XLS
+        jg3BarMJGfIds91w4ZlqC9JUBkjyquslBVom2dnI1mx5Pixat0vH4nc3lVR+bEGAzo6dtj87Lx/7K6tC
+        IoqO7yaQfeBbbCnQBMVpJ1NjtxrYqvXJdLJDDuGyUX6MbZB3bEzfa5y55pjB7PRNvLGvAm16AwK88HQQ
+        S9quIEN9AvFKzY8PJe1bGSFaL0h4LIukaQ1MktrAEvOaW97pGISPissLzHeQh3nwN2Tu78W2ohZEJ2SU
+        M0a/GWORxD1ExLIoMmoVixCtZlEPiCXJhYcmj/eGDiCPaw4Xdmm+x9PqToifKh5dESlKpMFxxMNENBFJ
+        3e6kFQo+A7t/bULR9vLPF2tM42g9Y0fhwRFkV3RjU2r5H5H3xZRSlxQinnclVhDhpd15sZJYTTx4b/S6
+        3dIdZWcfL2y2p+ys+iX20YxOyjiLvvFMYggRsRz/zYgHzyqKuCuOJfhAoRb/uguZ3A0A7B9vEOR77tjz
+        /wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+</root>
